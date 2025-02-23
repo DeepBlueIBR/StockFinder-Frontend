@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { searchCompanies } from './api';
-import { RouterProvider } from 'react-router-dom';
+import { RouterProvider } from 'react-router';
 import { router } from './Routes/Route';
 
 const root = ReactDOM.createRoot(

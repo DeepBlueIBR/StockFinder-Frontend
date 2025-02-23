@@ -15,7 +15,7 @@ const CardList: React.FC<Props> = ({searchResults, onPortfolioCreate}: Props): J
      {searchResults.length > 0 ? (
         searchResults.map((results) => {
             return <Card id={results.symbol} key={uuidv4()} searchResult={results} onPortfolioCreate={onPortfolioCreate}/>;
-        })
+        })  
 
      ): (
       <p className="mb-3 mt-3 text-xl font-semibold text-center md:text-xl">

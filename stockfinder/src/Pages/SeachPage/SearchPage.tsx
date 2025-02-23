@@ -48,7 +48,7 @@ const SearchPage = (props: Props) => {
       };
   return (
     <div className='App'>
-        <Navbar/>
+        
         <Search 
         onSearchSubmit={onSearchSubmit} 
         search={search} handleSearchChange= {handleSearchChange} 
