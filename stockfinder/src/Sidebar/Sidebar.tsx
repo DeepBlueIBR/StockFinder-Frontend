@@ -23,7 +23,7 @@ const Sidebar = (props: Props) => {
   
                     <Link to="company-profile" 
                     className="flex md:min-w-full text-blueGray-500 text-medium uppercase font-bold block pt--1 pb-4 no-underline"
-                     >
+                     > 
                         <FaHome  />
                         <h6 className="ml-3"> Company Profile
                         </h6>
