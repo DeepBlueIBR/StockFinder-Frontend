@@ -42,7 +42,7 @@ const Table = (props: Props) => {
   return (
     <div className="bg-white shadow rounded-lg p-4 sm:p-6 xl:p-8 ">
       <table className="min-w-full divide-y divide-gray-200 m-5">
-        <thead className="bg-gray-50">{renderedHeaders}</thead>
+        <tr className="bg-gray-50">{renderedHeaders}</tr>
         <tbody>{renderedRows}</tbody>
       </table>
     </div>
