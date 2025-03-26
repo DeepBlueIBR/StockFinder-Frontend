@@ -9,7 +9,7 @@ const DesignPage = (props : Props) => {
       <h1>StockFinder Design Page.</h1>
       <h2>This is the design page, where various designs will be housed.
       </h2>
-        <Table />
+        
     </>
   )
 }
