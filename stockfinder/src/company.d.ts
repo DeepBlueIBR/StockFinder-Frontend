@@ -311,7 +311,7 @@ export interface CompanyKeyMetrics {
 
 export interface CompanyTenK {
   symbol: string;
-  fillingDate: string;
+  filingDate: string;
   acceptedDate: string;
   cik: string;
   type: string;

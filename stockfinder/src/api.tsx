@@ -93,7 +93,7 @@ export const getTenK = async (query: string ) => {
         const fromDate = twoYearsAgo.toISOString().split('T')[0]; // Format: YYYY-MM-DD
         const toDate = today.toISOString().split('T')[0];
         const data = await axios.get<CompanyTenK[]>(
-        `https://financialmodelingprep.com/stable/sec-filings-search?symbol=${query}&from=${fromDate}&to=${toDate}&apikey=${process.env.REACT_APP_API_KEY}`
+        `https://financialmodelingprep.com/stable/sec-filings-search/symbol?symbol=${query}&from=${fromDate}&to=${toDate}&apikey=${process.env.REACT_APP_API_KEY}`
     )
         console.log(data);
         return data;
