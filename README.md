@@ -1,4 +1,4 @@
-This is the frontend for a StockPortfolio web app personal project, built using React.
+This is the frontend for a StockPortfolio web app personal project, built using React. Also for leanring typescript
 
 #Search_Page
 <img width="2002" alt="image" src="https://github.com/user-attachments/assets/0f69b684-1a38-4cc5-b186-92f013d29be9" />
